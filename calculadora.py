@@ -7,6 +7,10 @@ def resta(a, b):
 def multi(a, b):
     return a * b
 
+def div(a, b):
+    if b == 0:
+        return "Error: División por cero"
+    return a / b
 
 
 suma(4, 5)
